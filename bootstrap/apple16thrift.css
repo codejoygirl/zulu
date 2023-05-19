@@ -1,0 +1,514 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+@media screen and (max-width:1080px){
+    .subheader{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .subheader1{
+        display: flex;
+        flex-direction: column;
+        line-height: 2;
+    }
+
+    .subheader2{
+        display: flex;
+        flex-direction: column;
+        line-height: 2;
+        margin-left: 15%;
+    }
+
+    .mylogo{
+        margin-left: 25% !important;
+        margin-top: 15% !important;
+    }
+
+    .subheader1a{
+        margin-left: 0% !important;
+        margin-top: 10% !important;
+    }
+
+    .subheader1b{
+        margin-left: -27% !important;
+        margin-top: 0% !important;
+    }
+
+    .subheader1c{
+        margin-left: 0% !important;
+        margin-top: 0% !important;
+    }
+
+    .subheader1d{
+        margin-left: 0% !important;
+        margin-top: 0% !important;
+    }
+
+    .subheader2d{
+        margin-left: -11%;
+    }
+
+}
+
+
+
+
+ 
+ @media screen and (max-width:780px){
+    /* #mycontainer3{
+        padding: 3% 23% !important;
+    } */
+
+}
+ 
+
+
+
+@media screen and (max-width:600px){
+    /* .container1{
+        width: 100%;
+    } */
+
+    .subcontainer1{
+        padding: 3% 9% !important;
+    }
+
+    .container1a{
+        font-size: 30px !important;
+        width: 200px !important;
+    }
+
+    .container1b{
+        font-size: 18px !important;
+        width: 200px !important;
+    }
+
+    .container1c{
+        display: flex;
+        height: 100px;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .container1ci{
+        width: 200px !important;
+    }
+
+    .container1cii{
+        width: 200px !important;
+    }
+
+    .container1d{
+        font-size: 15px !important;
+    }
+
+    /* #mycontainer3{
+        padding: 4% 7% !important;
+    } */
+
+    .container4ai{
+        font-size: 16px !important;
+    }
+
+    .container5a{
+        font-size: 18px !important;
+    }
+
+    .container7aiii{
+        width: 150px !important;
+        padding: 1px !important;
+    }
+
+    #container8{
+        background-color: rgb(25, 26, 54);
+        /* padding: 3% 6% !important; */
+    }
+
+}
+    
+
+
+
+.header{
+    background-color: rgb(25, 26, 54);
+    /* opacity: 0.7; */
+    width: 100%;
+    color: white;
+    padding: 1%;
+    font-size: 16.5px;
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* align-items: center; */
+}
+
+.subheader{
+    display: flex;
+    justify-content: space-between;
+}
+
+.subheader1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ 
+.mylogo{
+    width: 40px;
+    height: 40px;
+    border: 3px solid pink;
+    box-shadow: 4px 4px 5px rgb(243, 102, 60), 5px 5px 6px solid rgb(243, 102, 60);
+    margin-right:60px;
+    margin-left: 25%;
+}
+
+ a{
+    color: white;
+}
+
+a:hover{
+    color: rgb(243, 102, 60);
+    text-decoration: none;
+}
+
+.subheader1a{
+    position: relative;
+}
+
+.subheader1ai{
+    position: absolute;
+    display: none;
+    background-color: white;
+    padding: 3% 8%;
+    width: 155px;
+    line-height: 2;
+    border-radius: 3.5px;
+}
+
+.subheader1aii{
+    color: black;
+}
+
+.subheader1a:hover .subheader1ai{
+    display: block;
+}
+
+.subheader1b{
+    position: relative;
+}
+
+.headerlink2{
+    margin-left: 45px;
+}
+
+.subheader1bi{
+    position: absolute;
+    display: none;
+    background-color: white;
+    padding: 2% 20%;
+    line-height: 2;
+    border-radius: 3.5px;
+    left: 13%;
+}
+
+.subheader1bii{
+    color: black;
+}
+
+.subheader1b:hover .subheader1bi{
+    display: block;
+}
+
+.subheader1c{
+    margin-left: 45px;
+}
+
+.subheader1d{
+    margin-left: 45px;
+}
+
+.subheader2{
+    display: flex;
+    align-items: center;
+    margin-right: 6%;
+}
+
+.subheader2a{
+    margin-right: 40px;
+}
+
+.subheader2b{
+    margin-right: 40px;
+}
+
+.subheader2ci{
+    margin-right: 40px;
+    color: rgb(243, 102, 60);
+}
+
+.subheader2ci:hover{
+    color: rgb(184, 64, 28);
+    transition: 0.28s;
+}
+
+#subheader2d{
+    color: rgb(243, 102, 60);
+}
+
+#subheader2d:hover{
+    color: rgb(184, 64, 28);
+    transition: 0.28s;
+}
+
+.container1{
+    background-image: url('/Style/My dating site/images/background2.jpg');
+    height: 85vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-position-y: 1%;
+    border-bottom: 12px solid rgb(243, 102, 60);
+    background-position-x: 75%;
+}
+
+.subcontainer1{
+    padding: 5% 4%;
+    color: white;
+}
+
+.container1a{
+    font-size: 50px;
+    width: 500px;
+}
+
+.container1b{
+    font-size: 23px;
+    width: 300px;
+}
+
+.container1ci{
+   background-color: white;
+   border: 2px solid rgb(243, 102, 60);
+   color: rgb(243, 102, 60);
+   width: 250px;
+   padding: 7px;
+   font-size: 18px;
+   border-radius: 10px;
+   cursor: pointer;
+}
+
+.container1ci:hover{
+    color:rgb(184, 64, 28);
+    transition: 0.28s;
+}
+
+
+.container1cii{
+    background-color: white;
+    color: white;
+    border: rgb(243, 102, 60);
+    background: rgb(243, 102, 60);
+    width: 250px;
+    padding: 7px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.container1cii:hover{
+    background-color: rgb(184, 64, 28);
+    transition: 0.28s;
+}
+
+.container1d{
+    position: fixed;
+    font-size: 25px;
+    background-color: rgb(243, 102, 60);
+    border-radius: 50%;
+    padding: 5px 8px;
+    bottom: 40px;
+    left: 1.5%;
+    z-index: 1;
+}
+
+#container1di{
+    color: white;
+}
+
+
+#mycontainer3{
+    padding-bottom: 5%;
+}
+
+.subcontainer3{
+    padding: 4% 15%;
+    /* display: flex;
+    justify-content: space-around; */
+}
+
+.container4{
+    padding-top: 3%;
+}
+
+.container4a{
+    padding: 3% 8%;
+}
+
+.container4ai{
+    font-size: 22px;
+    text-align: center;
+}
+
+#container4aii{
+    width: 100%;
+    align-content: center;
+}
+
+.container4aii{
+    background-color: rgb(243, 102, 60);
+    font-size: 16px;
+    padding: 7px;
+    color: white;
+    width: 250px;
+    border: rgb(243, 102, 60);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.container4aii:hover{
+    background-color: rgb(184, 64, 28);
+    transition: 0.28s;
+}
+
+.container4b{
+    padding: 3% 4%;
+    font-size: 16px;
+}
+
+.container4bi{
+    font-size: 25px;
+}
+
+#text-center{
+    color: rgb(243, 102, 60);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#text-center:hover{
+    color: rgb(184, 64, 28);
+    transition: 0.28s;
+}
+
+
+.container5{
+    background-color: rgba(243, 102, 60,0.6);
+    background: url('/Style/My dating site/images/background3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 6px;
+    height: 40px;
+    background-position-y: bottom;
+    align-items: center;
+    background-attachment: fixed;
+}
+
+
+.container5a{
+    font-size: 20px;
+    color: blue;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgb(184, 64, 28), 2px 2px 4px rgb(243, 102, 60);
+}
+
+
+.container6{
+    padding: 2% 4%;
+    font-size: 16px;
+}
+
+.container6a, .container6b{
+    font-size: 25px;
+}
+
+
+#container7{
+    /* background-image: linear-gradient(to right, rgba(100,200,100,0.5)); */
+    padding: 4% 4%;
+    /* background: rgba(25, 26, 54,0.9); */
+    background: linear-gradient(to right, rgba(200,150,100,0.5), rgba(100,200,150,0.5), rgb(150,180,220));
+}
+
+#container7ai{ 
+    width: 100%;
+}
+
+.container7aii{
+    font-size: 23px;
+    font-weight: 600;
+    color: black;
+}
+
+.container7aiii{
+    width: 400px;
+    padding: 5px;
+    border: 2px solid rgb(243, 102, 60);
+    border-radius: 10px;
+    font-size: 18px;
+    background: linear-gradient(to right, rgba(200,150,100,0.5), rgba(100,200,150,0.5), rgb(150,180,220));
+    color: rgb(243, 102, 60);
+}
+
+.container7aiii:hover{
+    /* color: rgb(184, 64, 28); */
+    background: linear-gradient(to right, rgba(200,150,100,0.8), rgba(100,200,150,0.8), rgb(155,185,225));
+    transition: 0.28s;
+}
+
+#container8{
+    background-color: rgb(25, 26, 54);
+    padding-top: 2.5%;
+    padding-left: 1%;
+    font-size: 13.5px;
+    line-height: 1.3;
+}
+
+.container8a{
+   font-size: 18px;
+}
+
+#container9{
+    background-color: rgb(15, 15, 29);
+    color: white;
+    padding-top: 1%;
+    padding-bottom: 0%;
+    padding-left: 2%;
+}
+
+.container9bii{
+    font-size: 16px;
+    color: blue;
+}
+
+.container9a{
+    height: 250px;
+}
+
+.iclass{
+    font-size: 30px;
+    color: red;
+}
+
+.iclass1{
+    font-size: 30px;
+    color: rgb(18, 150, 18);
+}
