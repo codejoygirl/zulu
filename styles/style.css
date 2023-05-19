@@ -1,0 +1,1366 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  :root {
+    --backgroundcolor: rgb(16,10,28);
+    --buttonColor: linear-gradient( 91.38deg, #a886ea 3.2%, #b598ef 42.82%, #ffffff 126.05% );
+    --buttonColorHover: linear-gradient( 91.38deg, #c2aaf3 3.2%, #d4c3f7 42.82%, #ffffff 126.05% );
+    --fontColor: #100a1c;
+    --fontHoverColor: #a886ea;
+    --font-Background-ColorGradient: linear-gradient(
+      91.57deg,
+      #7844e1 17.95%,
+      #b598ef 58.25%,
+      #ffffff 107.27%
+    );
+
+    --footerColor: rgb(24,12,48);
+  }
+
+  body{
+    background-color: var(--backgroundcolor);
+  }
+
+
+  .containerflex{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    /* width: 1570px !important; */
+    /* background-color: red; */
+    /* width: 100%; */
+  }
+  
+  .navList{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    line-height: 3.2;
+  }
+  
+  .containerflex a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-size: 1.2rem;
+    transition: 500ms;
+  }
+  
+  .containerflex a:hover{
+    color: var(--fontHoverColor);
+  }
+  
+  .containerflex>.wallet a{
+    color: #100a1c;
+    font-weight: 600;
+    font-size: 1.2rem;
+  }
+  
+  .wallet-desktop {
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    background: linear-gradient(
+      91.38deg,
+      #ab9bca 3.2%,
+      #b598ef 42.82%,
+      #ffffff 126.05%
+    );
+    border-radius: 50px;
+    border: none;
+    transition: background 0.00008ms;
+  }
+
+
+  .wallet-desktop:hover{
+    background: var(--fontHoverColor);
+    /* color: white; */
+  }
+  
+  
+
+
+  /* Navbar Mobile view */
+  .mobile-nav{
+    max-width: 100%;
+    /* background-color: var(--footerColor); */
+  }
+  .nav-mobile{
+    width: 100%;
+    padding: 8px 10px;
+    display: none;
+  }
+  
+  .hamburg-Div{
+    text-align: right !important;
+    margin-top: -50px;
+  }
+  
+  .hamburg{
+    font-size: 70px;
+      color: white;
+  }
+  
+  .navbar-mobile{
+    line-height: 2.3;
+  }
+  
+  /* .image-mobile{
+    margin-bottom: 0px;
+  } */
+  
+  .nav-list-container-mobile a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+  }
+  
+  
+  .wallet-mobile {
+    /* display: flex;
+    flex-direction: row; */
+  
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+    /* gap: 10px; */
+    /* width: 272px; */
+    /* height: 47px; */
+    background: linear-gradient(
+      91.38deg,
+      #ab9bca 3.2%,
+      #b598ef 42.82%,
+      #ffffff 126.05%
+    );
+    border-radius: 50px;
+    border: none;
+    transition: background 0.00008ms;
+  }
+
+  .wallet-mobile:hover{
+    background: var(--fontHoverColor);
+  }
+  
+  .nav-list-container-mobile .connect-mobile{
+    /* width: 97px; */
+    /* height: 17px; */
+    /* font-family: "Tomato Grotesk"; */
+    font-style: normal;
+    text-decoration: none;
+    /* text-align: center; */
+    font-weight: 650;
+    font-size: 1.2rem;
+    /* line-height: 17px; */
+    color: #100a1c;
+  }
+  
+  
+  @keyframes navlistdropdown {
+    from{
+      height: 0px;
+    }
+    to{
+      height: 40%;
+    }
+  }
+  
+  .nav-list-container-mobile{
+    animation: navlistdropdown 0.7s;
+    display: none;
+  }
+  
+
+ /* ///////////////// Main: The body part /////////////////// */
+
+.future{
+    text-align: center;
+    margin-bottom: 80px;
+    margin-top: 30px;
+    /* padding-left: 130px; */
+    /* width: 300%; */
+}
+
+.future>.online-transaction{
+    width: 100%;
+    text-align: center;
+    /* margin-left: 80px; */
+    margin-bottom: 25px;
+}
+
+.future h1{
+    background: linear-gradient(
+        91.57deg,
+        #7844e1 17.95%,
+        #b598ef 58.25%,
+        #ffffff 107.27%
+      );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      font-size: 5rem;
+      font-weight: 700;
+    font-family: "Neue Machina";
+    font-style: normal;
+    text-align: center;
+    width: 85%;
+    line-height: 1;
+}
+
+.future>.buy-and-sell{
+    margin-bottom: 40px;
+}
+
+.future p{
+    color: rgb(227,226,230);
+    font-size: 1.2rem;
+    line-height: 1.7;
+}
+
+.future button{
+    padding: 15px 20px;
+    /* gap: 10px; */
+    width: 272px;
+    /* height: 57px; */
+    background: linear-gradient(
+      91.38deg,
+      #a886ea 3.2%,
+      #b598ef 42.82%,
+      #ffffff 126.05%
+    );
+    border-radius: 50px;
+    align-self: center;
+    transition: 0.27s;
+    border: none;
+    font-weight: 600;
+    transition: background 0.00008ms;
+}
+
+.future button:hover{
+    background: var(--fontHoverColor);
+}
+
+.future>.click a{
+    text-decoration: none;
+    color: var(--fontColor);
+    /* font-family: "Tomato Grotesk";
+    font-style: normal; */
+    font-size: 1.2rem;
+}
+
+
+
+/* /////////////// What we offer section ////////////////// */
+.offering{
+    padding: 0px 20px;
+}
+
+.offering>.what-we-offer{
+    margin-bottom: 40px;
+}
+.offering>.what-we-offer>h1{
+    text-align: center;
+    background: linear-gradient(
+      91.57deg,
+      #7844e1 17.95%,
+      #b598ef 58.25%,
+      #ffffff 107.27%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+     /* background-clip: text; */
+    /* text-fill-color: transparent; */
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 15px;
+    padding: 0px 0px;
+}
+
+.card-one{
+    background-color: rgb(24,13,48);
+    background: url('/images/image1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 60%;
+    background-position-x: 100%;
+    /* height: 300px; */
+    /* width: 100%; */
+    /* height: 100%; */
+    /* padding: 40px 50px 80px 30px; */
+    /* padding: 20px 20px; */
+    border: 1px solid rgb(44,35,63);
+    border-radius: 20px;
+    padding: 40px 50px 80px 30px;
+    /* width: 100%; */
+}
+
+.card-one>h1{
+    color: white;
+    font-size: 2.3rem;
+    padding-bottom: 20px;
+}
+
+.card-one>p{
+    color: white;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.card-two{
+    background-color: rgb(24,13,48);
+    background: url('/images/image2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 60%;
+    background-position-x: 100%;
+    /* width: 100%; */
+    padding: 40px 50px 80px 30px;
+    border: 1px solid rgb(44,35,63);
+    border-radius: 20px;
+    /* width: 100%; */
+}
+
+.card-two>h1{
+    color: white;
+    font-size: 2.3rem;
+    padding-bottom: 20px;
+}
+
+.card-two>p{
+    color: white;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.card-three{
+    background-color: rgb(24,13,48);
+    background: url('/images/image3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 60%;
+    background-position-x: 100%;
+    /* width: 100%; */
+    padding: 40px 50px 80px 30px;
+    border: 1px solid rgb(44,35,63);
+    border-radius: 20px;
+}
+
+.card-three>h1{
+    color: white;
+    font-size: 2.3rem;
+    padding-bottom: 20px;
+}
+
+.card-three>p{
+    color: white;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.card-four{
+    background-color: rgb(24,13,48);
+    background: url('/images/image4.png');
+    /* background-size: contain; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 60%;
+    background-position-x: 100%;
+    /* width: 100%; */
+    padding: 40px 50px 80px 30px;
+    border: 1px solid rgb(44,35,63);
+    border-radius: 20px;
+}
+
+.card-four>h1{
+    color: white;
+    font-size: 2.3rem;
+    padding-bottom: 20px;
+}
+
+.card-four>p{
+    color: white;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+/* ////////////////////////////////////////////////////////// */
+
+
+
+/* //////////// How does this work: How-does part //////////// */
+.how-does{
+    margin-top: 70px;
+    padding: 0px 0px 0px 20px;
+}
+
+.how-does>.how-it-work{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 70px;
+}
+
+.how-does h1{
+    font-size: 3.5rem;
+    font-weight: 700;
+    background: var(--font-Background-ColorGradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 25px;
+}
+
+.how-it-work p{
+    color: white;
+    text-align: center;
+    line-height: 1.7;
+}
+
+.how-does>.work-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 50px 10px;
+}
+
+.how-does .container-one{
+    position: relative;
+    /* width: 400px; */
+    background-color: rgb(24,13,48);
+    padding: 40px 20px 40px 20px;
+    border-radius: 10px;
+}
+
+.how-does>.work-container .round{
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+     width: 75px;
+    height: 75px;
+    background: linear-gradient(
+        91.57deg,
+        /* #7844e1 17.95%, */
+        #b598ef 5.25%,
+        #ffffff 107.27%
+      );
+      color: black;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid rgb(16,10,28);
+}
+
+.how-does>.work-container .round>span{
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+.how-does .container-one p{
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.how-does .container-two{
+    position: relative;
+    /* width: 400px; */
+    background-color: rgb(24,13,48);
+    padding: 40px 20px 40px 20px;
+    border-radius: 10px;
+}
+
+.how-does>.work-container .round-two{
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+     width: 75px;
+    height: 75px;
+    background: linear-gradient(
+        91.57deg,
+        /* #7844e1 17.95%, */
+        #b598ef 5.25%,
+        #ffffff 107.27%
+      );
+      color: black;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid rgb(16,10,28);
+}
+
+.how-does>.work-container .round-two>span{
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+
+.how-does .container-two p{
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+    padding-top: 30px;
+}
+
+
+.how-does .container-three{
+    position: relative;
+    /* width: 400px; */
+    background-color: rgb(24,13,48);
+    padding: 40px 20px 40px 20px;
+    border-radius: 10px;
+}
+
+.how-does>.work-container .round-three{
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+     width: 75px;
+    height: 75px;
+    background: linear-gradient(
+        91.57deg,
+        /* #7844e1 17.95%, */
+        #b598ef 5.25%,
+        #ffffff 107.27%
+      );
+      color: black;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid rgb(16,10,28);
+}
+
+.how-does>.work-container .round-three>span{
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+
+.how-does .container-three p{
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+    padding-top: 30px;
+}
+
+
+.how-does .container-four{
+    position: relative;
+    /* width: 400px; */
+    background-color: rgb(24,13,48);
+    padding: 40px 20px 40px 20px;
+    border-radius: 10px;
+}
+
+.how-does>.work-container .round-four{
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+     width: 75px;
+    height: 75px;
+    background: linear-gradient(
+        91.57deg,
+        /* #7844e1 17.95%, */
+        #b598ef 5.25%,
+        #ffffff 107.27%
+      );
+      color: black;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid rgb(16,10,28);
+}
+
+.how-does>.work-container .round-four>span{
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+
+.how-does .container-four p{
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+    padding-top: 30px;
+}
+
+
+.how-does .container-five{
+    position: relative;
+    /* width: 400px; */
+    background-color: rgb(24,13,48);
+    padding: 40px 20px 40px 20px;
+    border-radius: 10px;
+}
+
+.how-does>.work-container .round-five{
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+     width: 75px;
+    height: 75px;
+    background: linear-gradient(
+        91.57deg,
+        /* #7844e1 17.95%, */
+        #b598ef 5.25%,
+        #ffffff 107.27%
+      );
+      color: black;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid rgb(16,10,28);
+}
+
+.how-does>.work-container .round-five>span{
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+
+.how-does .container-five p{
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+    padding-top: 30px;
+}
+
+
+.how-does .container-six{
+    position: relative;
+    /* width: 400px; */
+    background-color: rgb(24,13,48);
+    padding: 40px 20px 40px 20px;
+    border-radius: 10px;
+}
+
+.how-does>.work-container .round-six{
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+     width: 75px;
+    height: 75px;
+    background: linear-gradient(
+        91.57deg,
+        /* #7844e1 17.95%, */
+        #b598ef 5.25%,
+        #ffffff 107.27%
+      );
+      color: black;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid rgb(16,10,28);
+}
+
+.how-does>.work-container .round-six>span{
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+
+.how-does .container-six p{
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+    padding-top: 30px;
+}
+
+
+/* ////// The Humans behind Zulu Trust; "team-members" ////// */
+.team-members{
+    margin-top: 70px;
+    /* padding: 0px 100px; */
+}
+
+.team-members>.zulu-trust{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.team-members>.zulu-trust>h1{
+    background: var(--font-Background-ColorGradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+.team-members>.image-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+}
+
+.team-members figure{
+    width: 100%;
+}
+
+.team-members figure>img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid whitesmoke;
+    margin-bottom: 15px;
+    object-fit: cover;
+    /* max-width: 100%; */
+}
+
+.team-members figure p{
+    color: white;
+    font-size: 1.2rem;
+    line-height: 0.6;
+}
+
+.team-members figure .para{
+    color: rgb(120,54,252);
+}
+/* ////////////////////////////////////////////////////////// */
+  
+
+/* /////////////// End of Main: The body part /////////////// */
+
+
+
+/* //////////////// The Footer Part ////////////////////// */
+footer{
+    margin-top: 100px;
+    background-color: var(--footerColor);
+    padding: 50px ;
+}
+
+footer>.footer-container{
+    display: flex;
+    justify-content: space-between;
+    /* padding: 50px 100px 0px 100px; */
+    /* margin-bottom: 30px; */
+}
+
+footer .logo{
+    width: px;
+    /* background-color: red; */
+}
+
+footer .footer-items{
+    width: 30%;
+}
+
+footer .footer-items>div{
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-end;
+    width: 100%;
+}
+
+footer .footer-items>div a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    /* transition-timing-function: 3s; */
+    transition: 500ms ;
+}
+
+footer .footer-items>div a:hover{
+    color: var(--fontHoverColor);
+}
+
+
+footer>.rights-reserved{
+    text-align: center;
+}
+
+footer>.rights-reserved>p{
+    color: white;
+}
+
+
+/* ////////////////// End of Footer part ////////////////// */
+
+/* dropdown part */
+
+    
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-toggle {
+    background-color: #fff;
+    color: #000;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    background-color: #fff;
+    min-width: 100px;
+    margin-top: 10px;
+    padding: 0px 15px;
+    border: 1px solid #ccc;
+    display: none;
+    z-index: 999;
+  }
+  
+  .dropdown-menu li {
+    list-style-type: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .dropdown-menu li:hover {
+    background-color: #f0f0f0;
+  }
+
+
+nav, main, footer {
+    max-width: 1382px;
+}
+
+
+
+
+
+
+@media screen and (max-width:1200px) {
+    .card-container{
+        display: grid;
+        grid-template-columns: auto auto;
+        padding: 0px 10px 0px 10px;
+    }
+    .card-one{
+        background-position-x: 100%;
+        width: 100%;
+        background-color: rgb(24,13,48);
+        background-position-y: 100%;
+        background-size: contain;
+        background-position-x: 100%;
+    }
+
+    .card-two{
+        background-position-x: 100%;
+        width: 100%;
+        background-color: rgb(24,13,48);
+        background-position-y: 100%;
+        background-size: contain;
+        background-position-x: 100%;
+    }
+
+    .card-three{
+        background-position-x: 100%;
+        width: 100%;
+        background-color: rgb(24,13,48);
+        background-position-y: 100%;
+        background-size: contain;
+        background-position-x: 100%;
+    }
+
+    .card-four{
+        background-position-x: 100%;
+        width: 100%;
+        background-color: rgb(24,13,48);
+        background-position-y: 100%;
+        background-size: contain;
+        background-position-x: 100%;
+    }
+} 
+
+
+/* dropdwo */
+
+ 
+@media screen and (max-width:992px) {
+    /* ///////////////// How it work: how-does ///////////// */
+    .how-does>.work-container{
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 50px 10px;
+    }
+
+
+     /* //////// team-members; The Humans Behind... ///////// */
+    .team-members>.image-container{
+        display: grid;
+        grid-template-columns: auto auto ;
+        text-align: center;
+        gap: 0px 15px;
+    }
+
+     .team-members figure>img{
+        width: 275px;
+        height: 275px;
+    }
+
+
+
+
+    footer .footer-items{
+        width: 60%;
+    }
+
+    footer .footer-items>div{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+}
+
+
+
+  @media screen and (max-width: 768px){
+    .containerflex{
+      display: none;
+    }
+    .mobile-nav{
+      padding: 40px 10px;
+      /* background-color: rgb(16,10,28); */
+    }
+    .nav-mobile{
+      display: grid;
+      width: 100%;
+      padding: 20px 20px;
+    }
+
+    .mydiv{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .image-mobile{
+        margin-top: -25px;
+    }
+
+    .image-mobile>img{
+        width: 180px !important;
+    }
+  
+    .hamburg-Div{
+      /* display: flex; */
+      /* justify-content: end; */
+      /* margin-left: px; */
+      /* background-color: red; */
+    }
+
+    .hamburg-Div>.hamburg{
+        width: 100px;
+    }
+
+
+  
+     /* /////////////// Main: The body part ///////////////// */
+     .future>.online-transaction{
+        /* width: 100%;
+        text-align: center; */
+        margin-left: 0px;
+    }
+
+    .future h1{
+        font-size: 3.5rem;
+        width: 100%;
+    }
+
+
+    /* //////////////// what We're Offering //////////////// */
+    .offering>.what-we-offer>h1{
+        font-size: 3rem;
+    }
+    /* ////////////////////////////////////////////////////// */
+    
+
+    /* /////////////// What we offer section ///////////////// */
+    .card-container{
+        display: grid;
+        grid-template-columns: auto;
+        padding: 0px 5px 0px 5px;
+    }
+    .card-one{
+        background-position-x: 100%;
+        width: 100%;
+        background-color: rgb(24,13,48);
+        background-position-y: 100%;
+        background-size: contain;
+        background-position-x: 100%;
+    }
+
+    .card-two{
+        background-position-x: 100%;
+        width: 100%;
+        background-color: rgb(24,13,48);
+        background-position-y: 100%;
+        background-size: contain;
+        background-position-x: 100%;
+    }
+
+    .card-three{
+        background-position-x: 100%;
+        width: 100%;
+        background-color: rgb(24,13,48);
+        background-position-y: 100%;
+        background-size: contain;
+        background-position-x: 100%;
+    }
+
+    .card-four{
+        background-position-x: 100%;
+        width: 100%;
+        background-color: rgb(24,13,48);
+        background-position-y: 100%;
+        background-size: contain;
+        background-position-x: 100%;
+
+    }
+
+
+    /* ///////////////// How it work: how-does ///////////// */
+    .how-does>.work-container{
+    display: grid;
+    grid-template-columns: auto;
+    gap: 50px 10px;
+}
+    /* /////////////////////////////////////////////////////// */
+
+
+    /* //////// team-members; The Humans Behind... ///////// */
+    /* .team-members>.image-container{
+        display: grid;
+        grid-template-columns: auto auto ;
+        text-align: center;
+    } */
+
+    /* ///////////// End of Main: The body part ///////////// */
+
+
+
+
+    /* /////////////////// Footer ////////////////////// */
+
+    /* footer .logo{
+        width: 300px;
+        background-color: red;
+    } */
+    
+    footer .footer-items>div{
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: flex-end;
+    }
+
+  }
+
+
+
+#modal{
+
+    background-color:rgba(0, 0, 0, 0.404);
+    backdrop-filter: blur(4px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* padding-top: 100px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: none;
+    animation: enter 0.6s;
+}
+
+@keyframes enter{
+
+    from{
+        transform: translateY(-100%);
+    }
+    to{
+        transform: translateY(0);
+    }
+
+}
+
+.modal-inner{
+    background-color:  #140E23;
+    color: white;
+}
+
+.modal-inner h3{
+    font-family: 'Tomato Grotesk';
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.modal-inner p{
+    font-family: 'Tomato Grotesk';
+    font-size: 14px;
+    font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+letter-spacing: 0.2px;
+
+
+}
+
+.modal-top{
+    position: relative;
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-top: 20px;
+}
+
+.modal-top .close{
+    font-size: 20px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+    padding: 20px;
+    
+}
+
+.metamask{
+    border: 2px solid rgba(255, 255, 255, 0.178);
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.underline{
+    width: 100%;
+    height: 1px ;
+    background-color:  rgba(255, 255, 255, 0.178);
+}
+
+.modal-body{
+
+    padding: 20px;
+}
+
+.metamask{
+    display: flex;
+    justify-content: space-between;
+    padding: 9px;
+    align-items: center;
+}
+
+.wallet-details{
+    margin-left: 10px;
+    margin-right: 40px;
+}
+
+.connect-to{
+    padding-bottom: 20px;
+}
+
+.connect-to a{
+    text-decoration: none;
+    font-family: 'Tomato Grotesk';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 14px;
+
+color: #6B2CEA;
+
+}
+
+.wallet-details h5{
+    font-family: 'Tomato Grotesk';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+}
+
+.wallet-details p{
+    font-family: 'Tomato Grotesk';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+}
+
+.metamask-logo{
+    padding-bottom: 10px;
+}
+
+
+.modal-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+
+.modal-footer p{
+    font-family: 'Tomato Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.modal-footer a{
+text-decoration: none;
+color: #6B2CEA;
+font-family: 'Tomato Grotesk';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+}
+
+
+
+@media screen and (max-width:576px) {
+     /* //////// team-members; The Humans Behind... ///////// */
+     .team-members>.image-container{
+        display: grid;
+        grid-template-columns: auto;
+        gap: 7px 0px;
+        text-align: center;
+    }
+
+    /* .team-members figure{
+        width: 100%;
+    } */
+    
+    .team-members figure>img{
+        width: 300px;
+        height: 300px;
+    }
+
+
+
+    footer>.footer-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer .logo{
+        /* width: 350px; */
+        /* background-color: red; */
+        /* text-align: center; */
+        margin-bottom: 40px;
+    }
+
+    
+
+    footer .footer-items>div{
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: flex-start;
+    }
+}
+
+
+  
+  @media screen and (max-width: 380px){
+    .mobile-nav{
+      padding: 20px 10px !important;
+    }
+    .nav-mobile{
+      display: grid;
+      width: 100%;
+    }
+
+    .mydiv{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .image-mobile{
+        margin-top: -25px;
+    }
+
+    .image-mobile>img{
+        width: 150px !important;
+    }
+
+    .hamburg-Div>.hamburg{
+        width: 150px;
+    }
+
+    /* /////////////////main: The body part///////////////// */
+    .future{
+        min-width: 100%;
+    }
+
+    .future h1{
+        font-size: 2.7rem;
+        width: 100%;
+    }
+
+
+    /* //////////////// what We're Offering //////////////// */
+       .offering>.what-we-offer>h1{
+        font-size: 3rem;
+    }
+
+    .card-container{
+        padding: 0px 0px !important;
+        margin-right: px;
+        margin-left: 0px;
+    }
+    /* ////////////////////////////////////////////////////// */
+
+    /* ///////////// End of Main: The body part ///////////// */
+
+
+    /* //////////////// The Footer /////////////////// */
+   
+  
+  }
+
+
+  @media screen and (max-width:325px) {
+    .future{
+        min-width: 300px;
+    }
+
+    .offering{
+        min-width: 300px;
+    }
+
+    .card-container{
+        padding: 0px 0px !important;
+        margin-right: px;
+        margin-left: -12px;
+    }
+
+    .how-does{
+        min-width: 300px;
+    }
+
+    .how-does>.work-container{
+        min-width: 300px;
+    }
+
+    footer{
+        min-width: 300px;
+    }
+  }
+  
