@@ -1,0 +1,366 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow: hidden;
+    background-color: #170D2A;
+}
+
+.zulu{
+  padding-left: 35px;
+}
+
+
+.sidebox{
+    background-color: #261743;
+width: 240px;
+height: 100%;
+position: fixed;
+border: 1px solid #292929;
+padding: 30px;
+padding-left: 15px;
+display: flex;
+justify-content: flex-start;
+flex-direction: column;
+z-index: 10;
+
+}
+
+
+
+.active{
+    background: #6B2CEA;
+    width: 150px;
+}
+.active a{
+
+    color: white !important;
+}
+
+
+.dash{
+border-radius: 8px;
+height: 38px;
+padding-right: 40px;
+padding-left: 25px;
+display: flex;
+align-items: center;
+margin-top: 5px;
+cursor: pointer;
+}
+.dash img{
+    margin-right: 10px;
+    width: 15px;
+}
+
+img a{
+   padding-right: 20px;
+}
+
+
+
+
+.dash a{
+    color:  #718096;   
+    text-decoration: none;
+}
+
+.history a{
+    text-decoration: none;
+    font-family: 'Tomato Grotesk';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 140%;
+color:  #718096;;
+}
+
+.disputes a{
+    text-decoration: none;
+    font-family: 'Tomato Grotesk';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 140%;
+color:  #718096;
+}
+
+
+.gethelp a{
+    text-decoration: none;
+    font-family: 'Tomato Grotesk';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 140%;
+
+}
+
+.settings a{
+    text-decoration: none;
+    font-family: 'Tomato Grotesk';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 140%;
+color:  #718096;  
+line-height: 100px; 
+}
+
+.dashboard{
+    display: flex;
+    position: relative;
+    width:  100%;
+    height: 100%;
+    
+}
+
+.line{
+padding: 20px;
+}
+
+
+
+.main{
+
+    width: 1055px;
+    position: absolute;
+    left: 260px;
+    padding-left: 30px;
+    
+ 
+}
+
+.header{
+    width: 100%;
+    height: 65px;
+    background: #261743;
+    padding-left: 20px;
+}
+
+.header input{
+
+
+}
+
+.input{
+    background-color:   #261743;
+    color: white;
+    border: 1px solid #292929;
+  border-radius: 8px;
+  width: 250px;
+  height: 40px;
+  box-sizing: border-box;
+  
+ 
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+
+}
+
+.input img{
+    width: 15px;
+    margin-right: 20px;
+
+}
+
+.input input{
+
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-right{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 100px;
+    width: 10%;
+}
+.profile-drop{
+
+    display: flex;
+    align-items: center;
+}
+img.usericon{
+
+    width: 25px;
+    margin-right: 20px;
+}
+.wallet-tab{
+
+    width: 100%;
+    padding: 50px;
+}
+.wallet-tab-inner{
+
+    width: 90%;
+    background-color: #261743;
+    /* margin: 50px; */
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+
+}
+
+.wallet-tab-inner p{
+
+  
+font-family: 'Tomato Grotesk';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+
+/* Greyscale/700 */
+
+color: #8D98AF;
+
+}
+
+.remainder h3{
+
+    /* BTC */
+
+
+width: 148px;
+height: 36px;
+
+font-family: 'Tomato Grotesk';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 150%;
+/* identical to box height, or 36px */
+
+letter-spacing: 0.2px;
+
+/* Greyscale/50 */
+
+color: #FFFFFF;
+}
+.remainder{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.myballance{
+
+    width: 23%;
+    overflow: hidden;
+}
+.btc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+
+
+
+    width: 48px;
+height: 24px;
+
+/* Other/Amber */
+
+background: #F59E0B;
+border-radius: 50px;
+}
+
+.btc p{
+    color: white !important;
+
+}
+.purchase-sale{
+
+    width: 15%;
+    padding: 15px;
+    border: 2px solid rgba(99, 98, 98, 0.847);
+    border-radius: 15px;
+}
+.purchase-sale h3{
+
+    color: white;
+    font-family: 'Tomato Grotesk';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 24px;
+margin-top: 5px;
+
+}
+.title-icon{
+
+    display: flex;
+    align-items: center;
+}
+.title-icon img{
+
+        margin-right: 5px;
+        width: 30px;
+        /* background-color: #2d0970d1; */
+        padding: 2px;
+        border-radius: 15px;
+        filter: invert(1);
+
+}
+
+.buy-sell{
+
+    width: 15%;
+    
+}
+.buy-sell button{
+
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+    color: white;
+
+    }
+    .buy button{
+
+        background-color: #6B2CEA;
+    
+    }
+    .sell button{
+        background-color: #334155;
+    }
+    .transactions-tab{
+
+    width: 100%;
+    padding: 50px;
+    }
+     .transactions-tab-inner{
+    
+        width: 85%;
+        background-color: #261743;
+        /* margin: 50px; */
+        border-radius: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 15px;
+     
+    
+    } 

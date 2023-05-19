@@ -1,0 +1,115 @@
+
+*{
+    box-sizing: border-box;
+}
+
+
+.dash-modal{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.525);
+    backdrop-filter: blur(8px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100000;
+    display: none;
+}
+
+.modal-inner{
+
+    color: white;
+    background-color: #170D2A;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    padding: 15px;
+}
+
+.close{
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+
+}
+
+.modal-top{
+
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: left;
+    width: 100%;
+}
+
+.modal-top p:first-child{
+
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    
+}
+
+.modal-top p:nth-child(2){
+
+    color: white;
+    font-weight: bold;
+    font-size: 10px;
+    text-align: left;
+    margin-top: 0;
+}
+.modal-inner input{
+
+    width: 100%;
+    padding: 10px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid rgba(128, 128, 128, 0.773);
+    outline: 0;
+    border-radius: 10px;
+}
+.modal-inner input::placeholder{
+
+    color: white;
+}
+.modal-inner select{
+
+    width: 100%;
+    padding: 10px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid rgba(128, 128, 128, 0.773);
+    outline: 0;
+    border-radius: 10px;
+}
+.modal-body{
+
+    width: 100%;
+}
+.modal-footer{
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.modal-footer button{
+
+    background-color: #6B2CEA;
+    color: white;
+    width: 90%;
+    text-align: center;
+    outline: 0;
+    border: 0;
+    padding: 15px;
+    border-radius: 10px;
+
+}
